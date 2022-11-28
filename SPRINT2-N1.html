@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint2-Bootstrap</title>
+    <link rel="stylesheet" href="sass/custom.css">
+</head>
+
+<body class="bg-light">
+    <header class="container-fluid">
+        <nav class="row navbar navbar-expand-md navbar-light bg-light justify-content-center fw-bold backgroundNone">
+            <div class="col-11 container m-2">
+                <a class="navbar-brand" href="#"><img class="img" src="Imagenes/logo-bookmark.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 row align-items-center">
+                        <li class="nav-item col-3">
+                            <a class="nav-link colorRed" aria-current="page" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <button class="btn btn-secondary" type="submit">LOGIN</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+
+        <section class="container">
+
+            <article class="row justify-content-center mt-4">
+                <div class="text-center text-lg-start col-12 col-lg-6 order-lg-last">
+                    <div class="primary position-relative">
+                        <img src="Imagenes/illustration-hero.svg" class="img-fluid" alt="ilustration-hero">
+                        <span class="blueFigure"></span>
+                    </div>
+                </div>
+
+                <div
+                    class="row g-4 g-lg-3 text-center text-lg-start col-12 col-md-6 my-4 d-flex flex-column justify-content-center align-items-center order-lg-first">
+                    <p class="h1">A Simple Bookmark Manager</p>
+                    <p class="h6">A clean and simple interface to organice your favourite websites.Open a new browser
+                        tab and
+                        see your sites
+                        load instantly. Try it for free.</p>
+                    <div class="justify-content-start"> 
+                        <button type="button" class="btn btn-primary mt-4 me-2 mb-3">Get it on Chrome</button>
+                        <button type="button" class="btn btn-light mt-4 me-2 mb-3 shadow-sm bg-light">Get it on Firefox </button>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>

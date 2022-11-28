@@ -1,0 +1,17 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+
+
+.blueFigure {
+	background-color: $primary;
+	width: 750px;
+	top: 100px;
+	height: 350px;
+	left: 100px;
+	border-radius: 200px 0 0 200px;
+	position: absolute;
+	z-index: -1;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
