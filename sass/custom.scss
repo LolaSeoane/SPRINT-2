@@ -36,7 +36,26 @@ $secondary: #FA5959;
 	z-index: -3;
 	border-radius: 0 200px 200px 0;
   }
+.bg-light {
+	--bs-bg-opacity: 0!important;
+  }
+.accordion-button:focus {
+    box-shadow: none!important;
+	
+}
 
+.accordion-button::after {
+    background-image: url("../Imagenes/icon-arrow.svg")!important;
+}
+.accordion-button:not(.collapsed) {
+	background-color: white !important;
+	box-shadow: none !important;
+	color: black !important;
+  }
+.accordion-button:not(.collapsed)::after {
+	filter: invert(47%) sepia(95%) saturate(1098%) hue-rotate(324deg) brightness(97%) contrast(102%);
+  }
   
+ 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
