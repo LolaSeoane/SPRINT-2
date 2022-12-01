@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
 .blueFigure {
   background-color: #5265E1;
   width: 70%;

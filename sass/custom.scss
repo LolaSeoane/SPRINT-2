@@ -1,7 +1,9 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-
+body {
+	overflow-x: hidden;
+}
 
 .blueFigure {
 	background-color: $primary;
